@@ -31,6 +31,7 @@
 			  gtag('config', 'UA-142145537-2');
 		</script>
 		<% end %>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 	</head>
 	<body>
 		<header role="banner">
@@ -127,6 +128,27 @@
 				</div>
 			</div>
 		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#eaf7f7",
+      "text": "#5c7291"
+    },
+    "button": {
+      "background": "#56cbdb",
+      "text": "#ffffff"
+    }
+  },
+  "content": {
+    "message": "Nous utilisons les cookies afin de fournir les services et fonctionnalités proposés sur notre site et afin d’améliorer l’expérience de nos utilisateurs.",
+    "dismiss": "OK",
+    "link": "En savoir plus.",
+    "href": "http://www.tekinnovative.com/cookiesconsent"
+  }
+});
+</script>
 		<%= javascript_include_tag 'popper.min' %>
 		<%= javascript_include_tag 'bootstrap.min' %>
 		<%= javascript_include_tag 'owl.carousel.min' %>
