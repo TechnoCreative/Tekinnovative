@@ -15,11 +15,10 @@
  */
  
  
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
+
 @import url(animate.css);
 @import url(owl.carousel.min.css);
 @import url(jquery.fancybox.min.css);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css);
 @import url(style.css);
 @import url(ionicons.min.css);
 @import url(font-awesome.min.css);
