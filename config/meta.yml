@@ -1,0 +1,7 @@
+# config/meta.yml
+
+meta_title: "Tekinnovative | Votre agence digitale située au Cameroun"
+meta_desciption: "Tekinnovative est une Agence digitale située à Douala-Cameroun.Profitez d'une expérience réussie dans le domaine du digital et des nouvelles technologies: conception de sites web, application web et mobile, création graphique, marketing digital, motion design et animation 3D"
+meta_image: "bg-home.jpg" # Une image dans votre dossier app/assets/images/
+meta_keyword: "innovative technologies, technologies innovatrices, conception des sites web, applications web, agence web douala, agence digitale douala,motion design, animation 3D, création graphique,"
+facebook_account: "@Tekinnovative"
