@@ -1,0 +1,11 @@
+<%= form_for @subscriber , html: {multipart: true} do |f| %>
+    <div class="form-group">
+     <small id="emailHelp" class="form-text" style="color:white;">Abonnez vous pour recevoir nos promotions, tutoriels et actu récentes deux fois par semaine</small>
+   
+ 
+  <%= f.text_field :email,  class:"form-control", id:"exampleInputEmail1", placeholder:"Votre adresse email", required:true %>
+   </div>
+   <%= f.submit "Je m'abonne!", class:"btn btn-primary" %>
+
+ 
+  <% end %>

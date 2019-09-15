@@ -5,5 +5,6 @@ class ApplicationController < ActionController::Base
  logger.error 'Routing error occurred'
  render plain: '404 Not found', status: 404 
 end
+
  
 end

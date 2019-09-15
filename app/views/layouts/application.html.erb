@@ -59,11 +59,14 @@
 				</div>
 			</nav>
 		</header>
+		
 		<%= yield %>
+		
 		<footer class="site-footer" role="contentinfo">
+			
 			<div class="container">
 				<div class="row mb-5">
-					<div class="col-md-4 mb-5">
+					<div class="col-md-3 mb-5">
 						<h3 class="mb-4">A propos de Tekinnov@tive</h3>
 						<p class="mb-5">
 							<strong>Tekinnov@tive</strong>
@@ -84,7 +87,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-md-5 mb-5 pl-md-5">
+					<div class="col-md-3 mb-5 pl-md-5">
 						<div class="mb-5">
 							<h3 class="mb-4">Contact</h3>
 							<ul class="list-unstyled footer-link">
@@ -112,7 +115,16 @@
 							<li><a href="#">Conditions d'utilisation</a></li>
 						</ul>
 					</div>
-					<div class="col-md-3"></div>
+					
+						<div class="col-md-3 mb-5 pl-md-5">
+						<div class="mb-5">
+							<h3 class="mb-4">Newsletter</h3>
+							
+							<%= render 'newsletters/form' %>
+						</div>
+					</div>
+					
+					
 				</div>
 				<div class="row">
 					<div class="col-12 text-md-center text-left">
