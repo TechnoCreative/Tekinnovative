@@ -3,7 +3,7 @@ class HomeController < ApplicationController
     
     def index 
         
-        # @subscriber = Newsletter.create
+        @subscriber = Newsletter.create
         
         
        
