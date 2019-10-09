@@ -18,16 +18,25 @@ Rails.application.config.assets.precompile += %w( style.css )
 Rails.application.config.assets.precompile += %w( ionicons.min.css )
 Rails.application.config.assets.precompile += %w( font-awesome.min.css )
 Rails.application.config.assets.precompile += %w( flaticon.css )
+Rails.application.config.assets.precompile += %w( icomoon.css )
+Rails.application.config.assets.precompile += %w( articles.css )
+Rails.application.config.assets.precompile += %w( responsive.css )
+Rails.application.config.assets.precompile += %w( tech.css)
+Rails.application.config.assets.precompile += %w( color.css )
 
-
+Rails.application.config.assets.precompile += %w( modernizr-2.6.2.min.js )
 Rails.application.config.assets.precompile += %w( jquery-3.2.1.min.js )
 Rails.application.config.assets.precompile += %w( jquery-migrate-3.0.1.min.js )
 Rails.application.config.assets.precompile += %w( popper.min.js )
 Rails.application.config.assets.precompile += %w( bootstrap.min.js )
 Rails.application.config.assets.precompile += %w( owl.carousel.min.js )
 Rails.application.config.assets.precompile += %w( jquery.waypoints.min.js )
-Rails.application.config.assets.precompile += %w( jquery.stellar.min.js )
+Rails.application.config.assets.precompile += %w( tether.min.js )
+Rails.application.config.assets.precompile += %w( jquery.easing.1.3.js )
 Rails.application.config.assets.precompile += %w( jquery.fancybox.min.js )
+Rails.application.config.assets.precompile += %w( jquery.stellar.min.js )
+
+Rails.application.config.assets.precompile += %w( articles.js )
 Rails.application.config.assets.precompile += %w( main.js )
 
 
@@ -36,4 +45,3 @@ Rails.application.config.assets.precompile += %w( '.ttf' )
 Rails.application.config.assets.precompile += %w( '.woff' ) 
 Rails.application.config.assets.precompile += %w( '.woff2' ) 
 Rails.application.config.assets.precompile += %w( '.eot' ) 
-

@@ -1,0 +1,102 @@
+
+
+   
+    
+ <div class="slider-item overlay" data-stellar-background-ratio="0.5"
+    style="">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center">
+        <div class="col-lg-9 text-center col-sm-12 element-animate">
+          <h1 class="mb-4">Nous sommes une Agence Digitale</h1>
+          <div class="btn-play-wrap mx-auto">
+            <p class="mb-4"><a href="https://www.tekinnovative.com" data-fancybox data-ratio="2"
+                class="btn-play"><span class="ion ion-ios-play"></span></a></p>
+          </div>
+          <span>Regarder la vidéo</span>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+    
+
+
+
+    <div id="wrapper">
+        
+
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                        <div class="page-wrapper">
+                            
+
+                            <div class="blog-list clearfix">
+                                <% @articles.each  do |article| %>
+                                <div class="blog-box row">
+                                    <div class="col-md-4">
+                                        <div class="post-media">
+                                            <a href="tech-single.html" title="">
+                                                <%= image_tag "tech_blog_01.jpg", alt:"", class:"img-fluid" %>
+                                                <div class="hovereffect"></div>
+                                            </a>
+                                        </div><!-- end media -->
+                                    </div><!-- end col -->
+
+                                    <div class="blog-meta big-meta col-md-8">
+                                        <h4><%= link_to article_path(article) do %><%= article.title %></h4>
+                                        <p><%=truncate(article.description.html_safe, :length => 200, :separator => ' ')%></p>
+                                        <small class="firstsmall"><a class="bg-orange" href="tech-category-01.html" title="">Gadgets</a></small>
+                                        <small><%= article.updated_at %></small>
+                                        <small><%= article.author %></a></small>
+                                        <small><i class="fa fa-eye"></i> <%= article.views %></a></small>
+                                        <% end %>
+                                    </div><!-- end meta -->
+                                </div><!-- end blog-box -->
+
+                                <hr class="invis">
+                                <% end %>
+                                  <div class="row">
+                                    <div class="col-lg-10 offset-lg-1">
+                                        <div class="banner-spot clearfix">
+                                            <div class="banner-img">
+                                                <%= image_tag "banner_02.jpg", alt:"", class:"img-fluid" %>
+                                            </div><!-- end banner-img -->
+                                        </div><!-- end banner -->
+                                    </div><!-- end col -->
+                                </div><!-- end row -->
+
+                                <hr class="invis">
+                                
+                             
+
+                                                                   </div><!-- end blog-box -->
+
+                                <hr class="invis">
+
+                             
+                        </div><!-- end page-wrapper -->
+
+                        
+                    </div><!-- end col -->
+
+                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                        <%= render 'articles/sidebar' %>
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+
+   
+
+       
+        
+    </div><!-- end wrapper -->
+	
+
+    

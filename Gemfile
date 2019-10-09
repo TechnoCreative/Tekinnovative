@@ -9,6 +9,10 @@ gem 'pg'
 gem 'puma', '~> 3.0'
 gem 'devise'
 gem 'activeadmin'
+#WYQIWYG editor for active_admin
+gem 'active_admin_editor', github: 'boontdustie/active_admin_editor'
+#gem 'fullstack-cms'
+#gem 'fullstack-carousel'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

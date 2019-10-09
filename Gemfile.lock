@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/boontdustie/active_admin_editor.git
+  revision: efc7df212173cbac65dc95ed50e6f5917ae049c0
+  specs:
+    active_admin_editor (1.1.0)
+      activeadmin (>= 0.4.0)
+      ejs
+      rails (>= 3.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -76,6 +85,7 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    ejs (1.1.1)
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.11.1)
@@ -230,6 +240,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_admin_editor!
   activeadmin
   byebug
   coffee-rails (~> 4.2)
