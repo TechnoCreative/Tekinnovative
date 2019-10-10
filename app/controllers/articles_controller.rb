@@ -21,6 +21,7 @@ class ArticlesController < ApplicationController
     
     def create
         @article = Article.create(article_params)
+        @article.image.attach(params[:image])
         if @article.save
             redirect_to articles_path, notice:"Votre article a été enregistré."
         else 
@@ -39,7 +40,7 @@ class ArticlesController < ApplicationController
     private 
     
     def article_params 
-        params.require(:article).permit(:title, description,:body,:category,:author,:views)
+        params.require(:article).permit(:title, description,:body,:category,:author,:views, :image)
         
     end
     

@@ -5,7 +5,7 @@ ActiveAdmin.register Article do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-   permit_params :title, :description, :body, :author, :category, :views
+   permit_params :title, :description, :body, :author, :category, :views,:image
   #
   # or
   #
@@ -24,9 +24,22 @@ ActiveAdmin.register Article do
       input :category
       input :author
       input :views
+      input :image, as: :file
+      
+      
 
 
     end
+    
+    # show do
+    #   attributes_table do
+    #     row :title
+    #     row :image do |ad|
+    #       image_tag url_for(ad.image)
+    #     end
+    #   end
+    # end
+  
     panel 'Markup' do
       "The following can be used in the content below..."
     end

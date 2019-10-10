@@ -13,6 +13,7 @@ gem 'activeadmin'
 #WYQIWYG editor for active_admin
 gem 'active_admin_editor', github: 'boontdustie/active_admin_editor'
 gem 'activestorage'
+gem 'aws-sdk-s3', require: false
 #gem 'activestorage'
 #gem 'fullstack-cms'
 #gem 'fullstack-carousel'
