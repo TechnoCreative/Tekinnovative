@@ -250,6 +250,7 @@ PLATFORMS
 DEPENDENCIES
   active_admin_editor!
   activeadmin
+  activestorage
   byebug
   coffee-rails (~> 4.2)
   devise

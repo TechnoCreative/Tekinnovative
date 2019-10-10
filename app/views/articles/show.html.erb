@@ -5,9 +5,9 @@
                         <div class="page-wrapper">
                             <div class="blog-title-area text-center">
                                 <ol class="breadcrumb hidden-xs-down">
-                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="#">Blog</a></li>
-                                    <li class="breadcrumb-item active">Top 10 phone applications and 2017 mobile design awards</li>
+                                    <li class="breadcrumb-item"><%= link_to"Accueil", root_path %></li>
+                                    <li class="breadcrumb-item"><%= link_to "Blog", articles_path %></li>
+                                    <li class="breadcrumb-item active"><%= @article.title %></li>
                                 </ol>
 
                                 <span class="color-orange"><a href="tech-category-01.html" title="">Technology</a></span>

@@ -12,7 +12,7 @@ gem 'devise'
 gem 'activeadmin'
 #WYQIWYG editor for active_admin
 gem 'active_admin_editor', github: 'boontdustie/active_admin_editor'
-#gem 'activestorage', '~> 6.0'
+gem 'activestorage'
 #gem 'activestorage'
 #gem 'fullstack-cms'
 #gem 'fullstack-carousel'
