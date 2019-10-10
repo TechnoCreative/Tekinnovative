@@ -51,7 +51,7 @@
                                     <div class="blog-meta big-meta col-md-8">
                                         <h4><%= link_to article_path(article) do %><%= article.title %></h4>
                                         <p><%=truncate(article.description.html_safe, :length => 200, :separator => ' ')%></p>
-                                        <small class="firstsmall"><a class="bg-orange" href="tech-category-01.html" title="">Gadgets</a></small>
+                                        <small class="firstsmall bg-orange"><%= article.category %></small>
                                         <small><%= article.updated_at %></small>
                                         <small><%= article.author %></a></small>
                                         <small><i class="fa fa-eye"></i> <%= article.views %></a></small>

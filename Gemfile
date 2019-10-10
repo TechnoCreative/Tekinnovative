@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0'
+gem 'rails', '~> 5.2.3'
+
 # Use pg as the database for Active Record
 gem 'pg'
 # Use Puma as the app server
@@ -11,6 +12,8 @@ gem 'devise'
 gem 'activeadmin'
 #WYQIWYG editor for active_admin
 gem 'active_admin_editor', github: 'boontdustie/active_admin_editor'
+#gem 'activestorage', '~> 6.0'
+#gem 'activestorage'
 #gem 'fullstack-cms'
 #gem 'fullstack-carousel'
 # Use SCSS for stylesheets
