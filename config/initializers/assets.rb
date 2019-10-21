@@ -17,7 +17,7 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 
 Rails.application.config.assets.precompile += %w( animate.css )
 Rails.application.config.assets.precompile += %w( owl.carousel.min.css )
-Rails.application.config.assets.precompile += %w( jquery.fancybox.min.css )
+# Rails.application.config.assets.precompile += %w( jquery.fancybox.min.css )
 Rails.application.config.assets.precompile += %w( style.css )
 Rails.application.config.assets.precompile += %w( ionicons.min.css )
 Rails.application.config.assets.precompile += %w( font-awesome.min.css )
