@@ -2,6 +2,11 @@ class ArticlesController < ApplicationController
     
     def index
         @articles = Article.all
+         if @subscriber != ""
+            
+             @subscriber =  Newsletter.new
+        
+        end
         
     end  
     
