@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('icomoon.eot?6iuir');
-  src:  url('icomoon.eot?6iuir#iefix') format('embedded-opentype'),
-    url('icomoon.ttf?6iuir') format('truetype'),
-    url('icomoon.woff?6iuir') format('woff'),
-    url('icomoon.svg?6iuir#icomoon') format('svg');
+  src:  url('icomoon/icomoon.eot?6iuir');
+  src:  url('icomoon/icomoon.eot?6iuir#iefix') format('embedded-opentype'),
+    url('icomoon/icomoon.ttf?6iuir') format('truetype'),
+    url('icomoon/icomoon.woff?6iuir') format('woff'),
+    url('icomoon/icomoon.svg?6iuir#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1203,9 +1203,9 @@
 .icon-retweet:before {
   content: "\ea06";
 }
-/*.icon-rocket:before {*/
-/*  content: "\ea07";*/
-/*}*/
+.icon-rocket:before {
+  content: "\ea07";
+}
 .icon-round-brush:before {
   content: "\ea08";
 }
@@ -1227,9 +1227,9 @@
 .icon-shareable:before {
   content: "\ea0e";
 }
-/*.icon-shield:before {*/
-/*  content: "\ea0f";*/
-/*}*/
+.icon-shield:before {
+  content: "\ea0f";
+}
 .icon-shop:before {
   content: "\ea10";
 }
