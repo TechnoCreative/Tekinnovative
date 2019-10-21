@@ -11273,3 +11273,13 @@ figure figcaption {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
+
+.slick-prev:before {
+  visibility: hidden;
+}
+.slick-next:before {
+  visibility: hidden;
+}
+.slick-dots li a:before  {
+  visibility: hidden;
+}

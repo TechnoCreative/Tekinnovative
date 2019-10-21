@@ -214,3 +214,13 @@
   
 
 })(jQuery);
+
+$(document).ready(function(){
+  $('.single-item').slick({
+  slidesToScroll: 1,
+  dots:true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  infinite: true,
+  });
+});

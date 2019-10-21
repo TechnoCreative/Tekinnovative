@@ -225,6 +225,8 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
+    slick_rails (1.5.9)
+      railties (>= 3.1)
     spring (2.1.0)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -279,6 +281,7 @@ DEPENDENCIES
   puma (~> 3.0)
   rails (~> 5.2.3)
   sass-rails (~> 5.0)
+  slick_rails
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)

@@ -1,0 +1,60 @@
+/* line 3, /home/ec2-user/environment/app/assets/stylesheets/color.scss */
+.dmtop,
+.search-form .btn:hover,
+.search-form .btn:focus,
+.search-form .btn {
+  color: #ffffff !important;
+  background-color: #3197d6 !important;
+}
+
+/* line 13, /home/ec2-user/environment/app/assets/stylesheets/color.scss */
+.blockquote {
+  border-left-color: #3197d6;
+}
+
+/* line 24, /home/ec2-user/environment/app/assets/stylesheets/color.scss */
+.fa-star-o,
+.fa-star {
+  color: #fbb034;
+}
+
+/* line 29, /home/ec2-user/environment/app/assets/stylesheets/color.scss */
+.topsocial .fa.fa-facebook {
+  color: #4b6ea9;
+}
+
+/* line 33, /home/ec2-user/environment/app/assets/stylesheets/color.scss */
+.topsocial .fa.fa-google-plus {
+  color: #e86142;
+}
+
+/* line 37, /home/ec2-user/environment/app/assets/stylesheets/color.scss */
+.topsocial .fa.fa-twitter {
+  color: #1ab2f5;
+}
+
+/* line 41, /home/ec2-user/environment/app/assets/stylesheets/color.scss */
+.topsocial .fa.fa-linkedin {
+  color: #0088c0;
+}
+
+/* line 45, /home/ec2-user/environment/app/assets/stylesheets/color.scss */
+.fa-bolt,
+.topsocial .fa.fa-pinterest {
+  color: #d73533;
+}
+
+/* line 50, /home/ec2-user/environment/app/assets/stylesheets/color.scss */
+.topsocial .fa.fa-youtube {
+  color: #d44638;
+}
+
+/* line 54, /home/ec2-user/environment/app/assets/stylesheets/color.scss */
+.topsocial .fa.fa-instagram {
+  color: #405de6;
+}
+
+/* line 58, /home/ec2-user/environment/app/assets/stylesheets/color.scss */
+.topsocial .fa.fa-flickr {
+  color: #ff0084;
+}
