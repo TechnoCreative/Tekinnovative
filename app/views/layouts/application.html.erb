@@ -22,6 +22,9 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+	
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"/>
+
 		<% if Rails.env.production? %>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142145537-2"></script>
 		<script>
@@ -183,10 +186,12 @@ window.cookieconsent.initialise({
 		<%= javascript_include_tag 'jquery.easing.1.3.js' %>
 		<%= javascript_include_tag 'articles' %>
 		<%= javascript_include_tag 'modernizr-2.6.2.min' %>
-		<%= javascript_include_tag 'jquery.fancybox.min' %>
 		<%= javascript_include_tag 'jquery.stellar.min' %>
 		<%= javascript_include_tag 'tether.min' %>
 		<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+		
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
 		<%= javascript_include_tag 'main' %>
 	</body>
 </html>
