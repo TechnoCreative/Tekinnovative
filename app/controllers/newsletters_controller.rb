@@ -3,7 +3,7 @@ class NewslettersController < ApplicationController
     before_action :set_newsletter, only: [:destroy]
     
     def îndex 
-      @subscriber = Newsletter.new
+     
     end
 
 
