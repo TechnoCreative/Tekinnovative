@@ -54,7 +54,7 @@
                                         <%= link_to article_path(article) do %> <h4 style="color: #e01616;"  ><%= article.title %></h4>
                                         <p style="color: #0d416f; !important"><%=truncate(article.description, :length => 200, :separator => ' ',:escape=>false) %></p>
                                         <small class="firstsmall bg-orange"><%= article.category %></small>
-                                        <small><%= article.updated_at %></small>
+                                        <small><%= article.updated_at.to_date %></small>
                                         <small><%= article.author %></a></small>
                                         <small><i class="fa fa-eye"></i> <%= article.views %></a></small>
                                         <% end %>
